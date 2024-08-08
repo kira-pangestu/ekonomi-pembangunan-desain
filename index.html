@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Ekonomi Desain</title>
+    <title>Kampung Toray</title>
     <!-- fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -18,24 +18,33 @@
     <!-- feather icons -->
 
     <link rel="stylesheet" href="css/style.css" />
+
+    <!-- alpainejs -->
+    <script
+      defer
+      src="https://cdn.jsdelivr.net/npm/alpinejs@3.x.x/dist/cdn.min.js"
+    ></script>
+
+    <!-- app -->
+    <script src="src/app.js"></script>
   </head>
   <body>
     <!-- navbar start -->
     <nav class="navbar">
-      <a href="#" class="navbar-logo">Ekonomi <span>Desain</span></a>
+      <a href="#" class="navbar-logo">KKN UNMUS <span>2024</span></a>
 
       <div class="navbar-nav">
         <a href="#home">Home</a>
         <a href="#about">Tentang Kami</a>
-        <a href="#menu">Menu</a>
-        <a href="#products">products</a>
-        <a href="#contact">kontak</a>
+        <a href="#menu">Potensi</a>
+        <!-- <a href="#products">products</a> -->
+        <a href="#contact">Maps</a>
       </div>
 
       <div class="navbar-extra">
         <a href="#" id="search-botton"><i data-feather="search"></i></a>
-        <a href="#" id="shopping-cart-button"
-          ><i data-feather="shopping-cart"></i
+        <!-- <a href="#" id="shopping-cart-button"
+          ><i data-feather="shopping-cart"></i -->
         ></a>
         <a href="#" id="hamburger-menu"><i data-feather="menu"></i></a>
       </div>
@@ -81,12 +90,9 @@
     <!-- hero section start -->
     <section class="hero" id="home">
       <main class="content">
-        <h1>Mari gunakan jasa <span>Desain</span> kami</h1>
-        <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque,
-          molestiae!
-        </p>
-        <a href="#" class="cta">Pesan sekarang</a>
+        <h1>Profil Kampung <span>Toray</span></h1>
+        <p>Mari Mengenal Kampung Toray</p>
+        <!-- <a href="#" class="cta">Pesan sekarang</a> -->
       </main>
     </section>
 
@@ -94,23 +100,34 @@
 
     <!-- about section start -->
     <section id="about" class="about">
-      <h2><span>Tentang</span> kami</h2>
+      <h2><span>Mengenai</span> Kampung Toray</h2>
 
       <div class="row">
         <div class="about-img">
-          <img src="img/OIG.jpeg" alt="Tentang kami" width="600" height="426" />
+          <img
+            src="img/Toray2.jpg"
+            alt="Tentang kami"
+            width="600"
+            height="426"
+          />
         </div>
         <div class="content">
-          <h3>kenapa memilih jasa desain kami</h3>
+          <!-- <h3>kenapa memilih jasa desain kami</h3> -->
           <p>
-            karena kami memberikan pelayanan yang baik dan akan menjamin
-            kepuasan pelanggan. kami juga memberikan harga yang jauh lebih murah
-            dan memberikan hasil desain yang memuaskan.
+            Kampung Toray merupakan salah satu kampung yang berada di Distrik
+            Sota, Kampung ini berbatasan langsung dengan beberapa kampung yang
+            ada di sekitarnya, yaitu kampung Kweel yang berada di sebelah utara
+            Kampung Toray, Kampung sota yang berada di sebelah selatan, Kampung
+            Poo Yang berada di sebelah barat dan Kampung Erambu yang berada di
+            sebelah Timur.
           </p>
           <p>
-            because we provide good service and will guarantee customer
-            satisfaction. We also provide much cheaper prices and provide
-            satisfactory design results.
+            Penduduk di Kampung Toray ada sekitar 608 jumlah penduduk, yang
+            terdiri dari 309 jumlah penduduk laki-laki dan 299 jumlah penduduk
+            perempuan. Di Kampung Toray saat ini hanya terdapat satu sekolah
+            yaitu SD yang memiliki siswa berjumlah 124. untuk melanjutkan ke
+            jenjang pendidikan selanjutnya mereka biasanya bersekolah di luar
+            kampung dan ke kota.
           </p>
         </div>
       </div>
@@ -119,82 +136,59 @@
 
     <!-- menu section start -->
     <section id="menu" class="menu">
-      <h2><span>Menu</span> kami</h2>
+      <h2>Potensi yang ada di <span>Kampung Toray</span></h2>
       <p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad dolor
-        temporibus similique, labore ut corrupti.
+        Kampung Toray memiliki potensi sumber daya alam yang sangat melimpah.
+        tanah yang subur di kampung toray ini sangat cocok untuk budi daya sagu,
+        buah-buahan, umbi-umbian, dan budidaya iakan dengan menggunakan keramba apung. Di Kampung Toray juga memiliki kekayaan
+        alam fauna berupa Ikan, Rusa dan Saham.
       </p>
-
       <div class="row">
         <div class="menu-card">
           <img
-            src="menu/1browsur.jpg"
+            src="img/products/ikan.jpg"
             alt="browsur"
             width="300px"
-            height="300px"
+            height="250px"
             class="menu-card-img"
           />
-          <h3 class="menu-card-title">- browsur -</h3>
-          <p class="menu-card-price">IDR 30K - 70K</p>
+          <h3 class="menu-card-title">- Ikan -</h3>
+          <!-- <p class="menu-card-price">IDR 30K - 70K</p> -->
         </div>
-        <!-- <div class="overlay" id="1browsur">
-          <a href="#" class="close">X CLOSE</a>
-          <a href="#Compotition" class="back">back</a>
-          <img src="menu/1browsur.jpg" alt="browsur" class="apa" />
-          <a href="#1cover" class="next">next</a>
-        </div> -->
         <div class="menu-card">
           <img
-            src="menu/1cover.jpeg"
+            src="img/products/bambu.jpg"
             alt="cover"
-            width="300px"
-            height="300px"
+            width="400px"
+            height="180px"
             class="menu-card-img"
           />
-          <h3 class="menu-card-title">- cover -</h3>
-          <p class="menu-card-price">IDR 100K - 300K</p>
+          <h3 class="menu-card-title">- Bambu -</h3>
+          <!-- <p class="menu-card-price">IDR 100K - 300K</p> -->
         </div>
-        <!-- <div class="overlay" id="1cover">
-          <a href="#" class="close">X CLOSE</a>
-          <a href="#1browsur" class="back">back</a>
-          <img src="menu/1cover.jpeg" alt="cover" class="apa" />
-          <a href="#1logo" class="next">next</a>
-        </div> -->
         <div class="menu-card">
           <img
-            src="menu/1logo.jpeg"
+            src="img/products/Sagu.jpg"
             alt="logo"
-            width="300px"
-            height="300px"
+            width="180px"
+            height="250px"
             class="menu-card-img"
           />
-          <h3 class="menu-card-title">- logo -</h3>
-          <p class="menu-card-price">IDR 200K - 700K</p>
+          <h3 class="menu-card-title">- Pohon Sagu -</h3>
+          <!-- <p class="menu-card-price">IDR 200K - 700K</p> -->
         </div>
-        <!-- <div class="overlay" id="1logo">
-          <a href="#" class="close">X CLOSE</a>
-          <a href="#1cover" class="back">back</a>
-          <img src="menu/1logo.jpeg" alt="logo" class="apa" />
-          <a href="#1web" class="next">next</a>
-        </div> -->
         <div class="menu-card">
           <img
-            src="menu/1web.jpg"
+            src="img/products/tradisional.jpg"
             alt="web"
-            width="300px"
-            height="300px"
+            width="400px"
+            height="180px"
             class="menu-card-img"
           />
-          <h3 class="menu-card-title">- web -</h3>
-          <p class="menu-card-price">IDR 1jt - 3jt</p>
+          <h3 class="menu-card-title">- Alat Tradisonal Pembuatan Sagu -</h3>
+          <!-- <p class="menu-card-price">IDR 1jt - 3jt</p> -->
         </div>
-        <!-- <div class="overlay" id="1web">
-          <a href="#" class="close">X CLOSE</a>
-          <a href="#1web" class="back">back</a>
-          <img src="menu/1web.jpg" alt="web" class="apa" />
-          <a href="compotition" class="next">next</a>
-        </div> -->
-        <div class="menu-card">
+        <!-- <div class="menu-card">
           <img
             src="menu/Compotition.png"
             alt="spanduk"
@@ -204,210 +198,64 @@
           />
           <h3 class="menu-card-title">- spanduk -</h3>
           <p class="menu-card-price">IDR 50K - 60K</p>
-        </div>
-        <!-- <div class="overlay" id="compotition">
-          <a href="#" class="close">X CLOSE</a>
-          <a href="#1web" class="back">back</a>
-          <img src="menu/compotition.png" alt="compotition" class="apa" />
-          <a href="#1browsur" class="next">next</a>
         </div> -->
       </div>
     </section>
     <!-- menu section end -->
 
     <!-- products section star -->
-    <section class="products" id="products">
+    <!-- <section class="products" id="products" x-data="products">
       <h2><span>Product unggulan</span> kami</h2>
       <p>
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti
         repellat commodi voluptatum possimus! Architecto, numquam.
       </p>
       <div class="row">
-        <div class="product-card">
-          <div class="products-icons">
-            <a href="#"><i data-feather="shopping-cart"></i></a>
-            <a href="#" class="item-detail-button"
-              ><i data-feather="eye"></i
-            ></a>
-          </div>
-          <div class="products-image">
-            <img
-              src="img/product/2brosur.jpg"
-              alt="product1"
-              width="300px"
-              height="300px"
-            />
-            <div class="product-content">
-              <h3>browsur</h3>
-              <div class="product-star">
-                <i data-feather="star" class="star-full"></i>
-                <i data-feather="star" class="star-full"></i>
-                <i data-feather="star" class="star-full"></i>
-                <i data-feather="star" class="star-full"></i>
-                <i data-feather="star" class="star-full"></i>
-              </div>
-              <div class="product-price">IDR 200k <span>IDR 350k</span></div>
+        <template x-for="(item, index) in items" x-key="index">
+          <div class="product-card">
+            <div class="products-icons">
+              <a href="#"><i data-feather="shopping-cart"></i></a>
+              <a href="#" class="item-detail-button"
+                ><i data-feather="eye"></i
+              ></a>
             </div>
-          </div>
-        </div>
-        <div class="product-card">
-          <div class="products-icons">
-            <a href="#"><i data-feather="shopping-cart"></i></a>
-            <a href="#" class="item-detail-button"
-              ><i data-feather="eye"></i
-            ></a>
-          </div>
-          <div class="products-image">
-            <img
-              src="img/product/2cover.jpeg"
-              alt="product1"
-              width="300px"
-              height="300px"
-            />
-            <div class="product-content">
-              <h3>cover</h3>
-              <div class="product-star">
-                <i data-feather="star" class="star-full"></i>
-                <i data-feather="star" class="star-full"></i>
-                <i data-feather="star" class="star-full"></i>
-                <i data-feather="star" class="star-full"></i>
-                <i data-feather="star" class="star-full"></i>
-              </div>
-              <div class="product-price">IDR 150k <span>IDR 400k</span></div>
-            </div>
-          </div>
-        </div>
-        <div class="product-card">
-          <div class="products-icons">
-            <a href="#"><i data-feather="shopping-cart"></i></a>
-            <a href="#" class="item-detail-button"
-              ><i data-feather="eye"></i
-            ></a>
-          </div>
-          <div class="products-image">
-            <img
-              src="img/product/2logo.jpeg"
-              alt="product1"
-              width="300px"
-              height="300px"
-            />
-            <div class="product-content">
-              <h3>logo</h3>
-              <div class="product-star">
-                <i data-feather="star" class="star-full"></i>
-                <i data-feather="star" class="star-full"></i>
-                <i data-feather="star" class="star-full"></i>
-                <i data-feather="star" class="star-full"></i>
-                <i data-feather="star" class="star-full"></i>
-              </div>
-              <div class="product-price">IDR 300k <span>IDR 800k</span></div>
-            </div>
-          </div>
-        </div>
-        <div class="product-card">
-          <div class="products-icons">
-            <a href="#"><i data-feather="shopping-cart"></i></a>
-            <a href="#" class="item-detail-button"
-              ><i data-feather="eye"></i
-            ></a>
-          </div>
-          <div class="products-image">
-            <img
-              src="menu/Compotition.png"
-              alt="product1"
-              width="300px"
-              height="300px"
-            />
-            <div class="product-content">
-              <h3>spanduk</h3>
-              <div class="product-star">
-                <i data-feather="star" class="star-full"></i>
-                <i data-feather="star" class="star-full"></i>
-                <i data-feather="star" class="star-full"></i>
-                <i data-feather="star" class="star-full"></i>
-                <i data-feather="star" class="star-full"></i>
-              </div>
-              <div class="product-price">IDR 50k <span>IDR 70sk</span></div>
-            </div>
-          </div>
-        </div>
-        <div class="product-card">
-          <div class="products-icons">
-            <a href="#"><i data-feather="shopping-cart"></i></a>
-            <a href="#" class="item-detail-button"
-              ><i data-feather="eye"></i
-            ></a>
-          </div>
-          <div class="products-image">
-            <img
-              src="menu/1web.jpg"
-              alt="product1"
-              width="300px"
-              height="300px"
-            />
-            <div class="product-content">
-              <h3>web</h3>
-              <div class="product-star">
-                <i data-feather="star" class="star-full"></i>
-                <i data-feather="star" class="star-full"></i>
-                <i data-feather="star" class="star-full"></i>
-                <i data-feather="star" class="star-full"></i>
-                <i data-feather="star" class="star-full"></i>
-              </div>
-              <div class="product-price">
-                IDR 3.000.000 <span>IDR 4.000.000</span>
+            <div class="products-image">
+              <img :src="'img/products/${item.img}'" :alt="brosur" />
+              <div class="product-content">
+                <h3>browsur</h3>
+                <div class="product-star">
+                  <i data-feather="star" class="star-full"></i>
+                  <i data-feather="star" class="star-full"></i>
+                  <i data-feather="star" class="star-full"></i>
+                  <i data-feather="star" class="star-full"></i>
+                  <i data-feather="star" class="star-full"></i>
+                </div>
+                <div class="product-price">IDR 200k <span>IDR 350k</span></div>
               </div>
             </div>
           </div>
-        </div>
-        <div class="product-card">
-          <div class="products-icons">
-            <a href="#"><i data-feather="shopping-cart"></i></a>
-            <a href="#" class="item-detail-button"
-              ><i data-feather="eye"></i
-            ></a>
-          </div>
-          <div class="products-image">
-            <img
-              src="menu/1cover.jpeg"
-              alt="product1"
-              width="300px"
-              height="300px"
-            />
-            <div class="product-content">
-              <h3>cover</h3>
-              <div class="product-star">
-                <i data-feather="star" class="star-full"></i>
-                <i data-feather="star" class="star-full"></i>
-                <i data-feather="star" class="star-full"></i>
-                <i data-feather="star" class="star-full"></i>
-                <i data-feather="star" class="star-full"></i>
-              </div>
-              <div class="product-price">IDR 150k <span>IDR 300k</span></div>
-            </div>
-          </div>
-        </div>
+        </template>
       </div>
-    </section>
+    </section> -->
 
     <!-- products section end -->
 
     <!-- contact section start -->
     <section id="contact" class="contact">
-      <h2><span>Contact</span> kami</h2>
-      <p>
+      <h2><span>Lokasi</span> Kampung Toray</h2>
+      <!-- <p>
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro,
         architecto!
-      </p>
+      </p> -->
       <div class="row">
         <iframe
-          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3945.928636642972!2d140.3708762704729!3d-8.506310267386835!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x69b5159d8c5ec1f9%3A0xcadd29eaa61e4caa!2sGanggulama%20Satu!5e0!3m2!1sid!2sid!4v1701839059189!5m2!1sid!2sid"
+          src="https://www.google.co.id/maps/place/BALAI+KAMPUNG+TORAY/@-8.0072569,140.9697902,16.07z/data=!4m6!3m5!1s0x684b3f9c9d6d69cf:0x5513a26d46badde7!8m2!3d-8.0070899!4d140.9757164!16s%2Fg%2F11kgs8cw4b?entry=ttu"
           allowfullscreen=""
           loading="lazy"
           referrerpolicy="no-referrer-when-downgrade"
           class="map"
         ></iframe>
-        <form action="">
+        <!-- <form action="">
           <div class="input-group">
             <i data-feather="user"></i>
             <input type="text" placeholder="nama" />
@@ -421,7 +269,7 @@
             <input type="text" placeholder="no hp" />
           </div>
           <button type="submit" class="btn">kirim Pesan</button>
-        </form>
+        </form> -->
       </div>
     </section>
     <!-- contact section end -->
@@ -436,13 +284,13 @@
       <div class="links">
         <a href="#home">Home</a>
         <a href="#about">Tentang kami</a>
-        <a href="#menu">Menu</a>
-        <a href="#products">products</a>
-        <a href="#contact">Contact</a>
+        <a href="#menu">Potensi</a>
+        <!-- <a href="#products">products</a> -->
+        <a href="#contact">Maps</a>
       </div>
 
       <div class="credit">
-        <p>Created by <a href="">Fajar Pangestu</a>. | &copy; 2023</p>
+        <p>Created by <a href="">Fajar Pangestu</a>. | &copy; KKN UNMUS 2024</p>
       </div>
     </footer>
     <!-- footer end -->
